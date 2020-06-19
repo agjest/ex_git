@@ -1,6 +1,11 @@
 ---
 title: "Git example"
-output: html_notebook
+output:
+  word_document: default
+  html_notebook: default
+  pdf_document: default
+editor_options:
+  chunk_output_type: inline
 ---
 
 # The basics of Git
@@ -14,13 +19,6 @@ MORE STUFF. THIS IS FROM THE MACPRO.
 THIS IS ALSO FROM THE IMAC. ENTERING SOME NEW STUFF HERE.
 
 Now we should be synced. Commit this and pull to the macbook pro before doing more work.
-
-```
-git config --global user.name "Arnstein Gjestland"
-git config --global user.email "ag@hvl.no"
-git config --global core.editor "nano -w"
-```
-
 
 ```{r}
 plot(cars)
