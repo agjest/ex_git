@@ -9,6 +9,8 @@ output: html_notebook
 
 New first sentence from macbook pro. Git is a version control system. A NEW DIFFERENCE FROM IMAC. It`s design to be used in the development of big software systems (the Linux kernel, ca. 1500 distributed developers). We will only use a tiny bit of the system, i.e. the most basic functionality. ANOTHER DIFFERENCE FROM IMAC. Some more just to be able to commit.
 
+Du some editing on the branch.
+
 MORE STUFF. THIS IS FROM THE MACPRO.
 
 THIS IS ALSO FROM THE IMAC. ENTERING SOME NEW STUFF HERE.
