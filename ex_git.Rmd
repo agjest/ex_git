@@ -23,6 +23,7 @@ git config --global user.email "ag@hvl.no"
 git config --global core.editor "nano -w"
 ```
 
+Now I have swirched to the `test_branch` and is working in this branch. The branch was created at the iMac. Time to commeit this sentence.
 
 ```{r}
 plot(cars)
