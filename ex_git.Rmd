@@ -19,6 +19,8 @@ THIS IS ALSO FROM THE IMAC. ENTERING SOME NEW STUFF HERE.
 
 Now we should be synced. Commit this and pull to the macbook pro before doing more work.
 
+NOW I AM AT MASTER AN THE STUFF FROM `test_branch` IS MISSING. WILL COMMIT AND PUSH THIS FROM THE IMAC.
+
 ```{r}
 plot(cars)
 ```
