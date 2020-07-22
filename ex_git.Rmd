@@ -11,6 +11,8 @@ New first sentence from macbook pro. Git is a version control system. A NEW DIFF
 
 Adding some stuff from the macbook. Will also add a sentence to the paragraph above to try to force some conflict. I am now working on test_branch.
 
+Adding a new sentence from macbook and a similar one in the same place from imac.
+
 Do some editing on the branch.
 
 MORE STUFF. THIS IS FROM THE MACPRO.
