@@ -1,6 +1,6 @@
 ---
 title: "Git example"
-output: html_notebook
+output: word_document
 ---
 
 # The basics of Git
@@ -32,6 +32,9 @@ Now I have switched to the `test_branch` and is working in this branch. The bran
 ```{r}
 plot(cars)
 ```
+Tester æ, ø og å.
+
+TESTER Æ, Ø og Å.
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
 
