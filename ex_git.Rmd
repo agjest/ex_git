@@ -11,9 +11,13 @@ NEW SECOND sentence from macbook pro. Git is a version control system. A NEW DIF
 
 Adding some stuff from the macbook. Will also add a sentence to the paragraph above to try to force some conflict. I am now working on test_branch.
 
+THIS IS ADDED FROM THE IMAC. I GUESS WE WILL GET SOME CONFLICT.
+
 Do some editing on the branch.
 
-MORE STUFF. THIS IS FROM THE MACPRO.
+MORE STUFF. THIS IS FROM THE MACPRO. 
+
+JUST A LITTLE EDIT TO THE FILE BEFORE MERGING new_test_branch.
 
 THIS IS ALSO FROM THE IMAC. ENTERING SOME NEW STUFF HERE.
 
