@@ -15,12 +15,12 @@ I`m keeping both.
 THIS IS ADDED FROM THE IMAC. I GUESS WE WILL GET SOME CONFLICT.
 Adding a new sentence from macbook and a similar one in the same place from imac.
 
-
 Do some editing on the branch.
 
 MORE STUFF. THIS IS FROM THE MACPRO. 
 
 JUST A LITTLE EDIT TO THE FILE BEFORE MERGING new_test_branch.
+MORE STUFF. THIS IS FROM THE MACPRO.
 
 THIS IS ALSO FROM THE IMAC. ENTERING SOME NEW STUFF HERE.
 
