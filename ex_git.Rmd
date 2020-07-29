@@ -7,7 +7,7 @@ output: html_notebook
 
 ## Introduction
 
-NEW SECOND sentence This must result in conflict from macbook pro. 
+NEW SECOND sentence from macbook pro. We got our conflict and it opened in Rstudio editor
 Git is a version control system. A NEW DIFFERENCE. 
 This is inserted from macbook in the test_branch. FROM IMAC. 
 It`s design to be used in the development of big software systems (the Linux kernel, ca. 1500 distributed developers). 
