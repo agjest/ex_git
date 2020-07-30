@@ -2,7 +2,7 @@
 title: "Git example"
 output: 
   github_document:
-    html_preview: true
+    html_preview: false
 ---
 
 ```{r setup, echo=FALSE, message=FALSE}
@@ -15,6 +15,8 @@ library(tidyverse)
 Just a sentence to check that git works from my virtual PC.
 I think it`s fixed now. Merge conflict opens in RStudio editor also on PC.
 
+## Density plot
+
 ```{r xdensity}
 set.seed(5566)
 x <- data.frame(x=rnorm(1000000, mean = 2, sd = 1))
@@ -22,5 +24,43 @@ mean(x$x); sd(x$x)
 ggplot(x, aes(x)) +
   geom_density()
 rm(x)
+```
+
+## Points plot
+
+We will be using the `cars` dataset. See `help(cars)` for details about the two variables.
+
+```{r cars-summary}
+summary(cars)
+```
+
+```{r cars-points-plot}
+ggplot(cars, mapping = aes(x = speed, y = dist)) +
+  geom_point()
+```
+
+### Spline
+
+We might want to add a smooth.
+
+```{r cars-points-plot-smooth, message=FALSE}
+ggplot(cars, mapping = aes(x = speed, y = dist)) +
+  geom_point() +
+  geom_smooth()
+```
+
+### Linear model
+
+We might also want a plain linear model.
+
+```{r cars-points-plot-smooth-lm, message=FALSE}
+ggplot(cars, mapping = aes(x = speed, y = dist)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+```{r summary-lm}
+mod <- lm(dist ~ speed, data = cars)
+summary(mod)
 ```
 
