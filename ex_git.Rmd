@@ -2,10 +2,10 @@
 title: "Git example"
 output: 
   github_document:
-    html_preview: false
+    html_preview: true
 ---
 
-```{r}
+```{r setup, echo=FALSE, message=FALSE}
 library(tidyverse)
 ```
 

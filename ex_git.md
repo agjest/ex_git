@@ -1,21 +1,6 @@
 Git example
 ================
 
-``` r
-library(tidyverse)
-```
-
-    ## -- Attaching packages --------------------- tidyverse 1.3.0 --
-
-    ## v ggplot2 3.3.2     v purrr   0.3.4
-    ## v tibble  3.0.3     v dplyr   1.0.0
-    ## v tidyr   1.1.0     v stringr 1.4.0
-    ## v readr   1.3.1     v forcats 0.5.0
-
-    ## -- Conflicts ------------------------ tidyverse_conflicts() --
-    ## x dplyr::filter() masks stats::filter()
-    ## x dplyr::lag()    masks stats::lag()
-
 # Introduction
 
 Just a sentence to check that git works from my virtual PC. I think
@@ -36,7 +21,7 @@ ggplot(x, aes(x)) +
   geom_density()
 ```
 
-![](ex_git_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](ex_git_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ``` r
 rm(x)
