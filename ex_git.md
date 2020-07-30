@@ -21,7 +21,7 @@ ggplot(x, aes(x)) +
   geom_density()
 ```
 
-![](ex_git_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](ex_git_files/figure-gfm/xdensity-1.png)<!-- -->
 
 ``` r
 rm(x)
