@@ -1,9 +1,26 @@
 ---
 title: "Git example"
-output: github_document
+output: 
+  github_document:
+    html_preview: false
 ---
+
+```{r}
+library(tidyverse)
+```
+
 
 # Introduction
 
 Just a sentence to check that git works from my virtual PC.
-I think it`s fixed now.
+I think it`s fixed now. Merge conflict opens in RStudio editor also on PC.
+
+```{r}
+set.seed(5566)
+x <- data.frame(x=rnorm(1000000, mean = 2, sd = 1))
+mean(x$x); sd(x$x)
+ggplot(x, aes(x)) +
+  geom_density()
+rm(x)
+```
+
