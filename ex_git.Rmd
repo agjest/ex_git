@@ -1,6 +1,8 @@
 ---
 title: "Git example"
-output: html_notebook
+output: github_document
 ---
 
+# Introduction
 
+Just a sentence to check that git works from my virtual PC.
