@@ -100,3 +100,9 @@ summary(mod)
     ## Residual standard error: 15.38 on 48 degrees of freedom
     ## Multiple R-squared:  0.6511, Adjusted R-squared:  0.6438 
     ## F-statistic: 89.57 on 1 and 48 DF,  p-value: 1.49e-12
+
+## Conclusions
+
+We are now working in branch conclusions. The conclusion must be that
+git is a lot of fun, but can sometimes be a little bit challenging.
+Remember: Keep smiling ;-)
