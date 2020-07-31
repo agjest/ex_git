@@ -1,13 +1,80 @@
 ---
 title: "Git example"
-output: pdf_document
+output: 
+  github_document:
+    html_preview: false
 ---
 
 Just testing lintr package
 
 ```{r test_plot, message=TRUE, warning=TRUE, paged.print=TRUE}
+library(lintr)
 x <- c(1, 2, 6, 7)
 plot(cars)
 ```
 
 just some text.
+
+```{r setup, echo=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+
+# Introduction
+
+Just a sentence to check that git works from my virtual PC.
+I think it`s fixed now. Merge conflict opens in RStudio editor also on PC.
+
+## Density plot
+
+```{r xdensity}
+set.seed(5566)
+x <- data.frame(x=rnorm(1000000, mean = 2, sd = 1))
+mean(x$x); sd(x$x)
+ggplot(x, aes(x)) +
+  geom_density()
+rm(x)
+```
+
+## Points plot
+
+We will be using the `cars` dataset. See `help(cars)` for details about the two variables.
+
+```{r cars-summary}
+summary(cars)
+```
+
+```{r cars-points-plot}
+ggplot(cars, mapping = aes(x = speed, y = dist)) +
+  geom_point()
+```
+
+### Spline
+
+We might want to add a smooth.
+
+```{r cars-points-plot-smooth, message=FALSE}
+ggplot(cars, mapping = aes(x = speed, y = dist)) +
+  geom_point() +
+  geom_smooth()
+```
+
+### Linear model
+
+We might also want a plain linear model.
+
+```{r cars-points-plot-smooth-lm, message=FALSE}
+ggplot(cars, mapping = aes(x = speed, y = dist)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+```{r summary-lm}
+mod <- lm(dist ~ speed, data = cars)
+summary(mod)
+```
+
+## Conclusions
+
+We are now working in branch conclusions. The conclusion must be that git is a lot of fun, but can sometimes be a little bit challenging. Remember: Keep smiling ;-)
+
