@@ -70,4 +70,4 @@ We are now working in branch conclusions. The conclusion must be that git is a l
 
 ## Some edit
 
-An edit to check that ssh key and gpg signing works.
+An edit to check that ssh key and gpg signing works. Now we have a gpg key also.
