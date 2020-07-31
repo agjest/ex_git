@@ -3,4 +3,10 @@ title: "Git example"
 output: html_notebook
 ---
 
+Just testing lintr package
+
+```{r test_plot, fig.width="70%", message=FALSE, warning=FALSE, paged.print=TRUE}
+x <- c(1, 2, 6, 7)
+plot(cars)
+```
 
