@@ -67,7 +67,3 @@ summary(mod)
 ## Conclusions
 
 We are now working in branch conclusions. The conclusion must be that git is a lot of fun, but can sometimes be a little bit challenging. Remember: Keep smiling ;-)
-
-## Some edit
-
-An edit to check that ssh key and gpg signing works. Now we have a gpg key also.
