@@ -4,17 +4,24 @@ Git example
 # Introduction
 
 Just a sentence to check that git works from my virtual PC. I think
-it\`s fixed now. Merge conflict opens in RStudio editor also on PC.
+it\`s fixed now. Merge conflict opens in RStudio editor also on PC. This
+is added for the pull request.
 
 ## Density plot
 
 ``` r
 set.seed(5566)
-x <- data.frame(x=rnorm(1000000, mean = 2, sd = 1))
+x <- data.frame(
+  x=rnorm(
+    1000000, 
+    mean = 3, 
+    sd = 1
+    )
+  )
 mean(x$x); sd(x$x)
 ```
 
-    ## [1] 2.001167
+    ## [1] 3.001167
 
     ## [1] 0.999934
 
@@ -63,14 +70,19 @@ ggplot(cars, mapping = aes(x = speed, y = dist)) +
   geom_smooth()
 ```
 
-![](ex_git_files/figure-gfm/cars-points-plot-smooth-1.png)<!-- -->
+![](ex_git_files/figure-gfm/cars-points-plot-smooth-1.png)<!-- --> Will
+this line be merged without ptoblem.
 
 ### Linear model
 
 We might also want a plain linear model.
 
 ``` r
-ggplot(cars, mapping = aes(x = speed, y = dist)) +
+ggplot(cars, 
+       mapping = aes(
+         x = speed, 
+         y = dist)
+       ) +
   geom_point() +
   geom_smooth(method = "lm")
 ```
