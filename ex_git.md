@@ -62,16 +62,20 @@ ggplot(cars, mapping = aes(x = speed, y = dist)) +
 
 ### Spline
 
-We might want to add a smooth.
+We might want to add a smooth. Some more small edits on kommentarer.
 
 ``` r
-ggplot(cars, mapping = aes(x = speed, y = dist)) +
+ggplot(cars, 
+       mapping = aes(
+         x = speed,
+         y = dist)
+       ) +
   geom_point() +
   geom_smooth()
 ```
 
 ![](ex_git_files/figure-gfm/cars-points-plot-smooth-1.png)<!-- --> Will
-this line be merged without ptoblem.
+this line be merged without problem.
 
 ### Linear model
 
