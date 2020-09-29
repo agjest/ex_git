@@ -54,11 +54,15 @@ We might want to add a smooth.
 Some more small edits on kommentarer.
 
 ```{r cars-points-plot-smooth, message=FALSE}
-ggplot(cars, mapping = aes(x = speed, y = dist)) +
+ggplot(cars, 
+       mapping = aes(
+         x = speed,
+         y = dist)
+       ) +
   geom_point() +
   geom_smooth()
 ```
-Will this line be merged without ptoblem.
+Will this line be merged without problem.
 
 ### Linear model
 
