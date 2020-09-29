@@ -8,3 +8,4 @@ Dette klarte du jo bra, men du bør kanskje rette opp
 1) bla
 2) bla bla
 3) osv.
+4) update kommentarer 

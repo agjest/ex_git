@@ -50,7 +50,8 @@ ggplot(cars, mapping = aes(x = speed, y = dist)) +
 
 ### Spline
 
-We might want to add a smooth.
+We might want to add a smooth. 
+Some more small edits on kommentarer.
 
 ```{r cars-points-plot-smooth, message=FALSE}
 ggplot(cars, mapping = aes(x = speed, y = dist)) +
