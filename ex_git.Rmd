@@ -48,6 +48,7 @@ ggplot(cars, mapping = aes(x = speed, y = dist)) +
   geom_point() +
   geom_smooth()
 ```
+Will this line be merged without ptoblem.
 
 ### Linear model
 
@@ -68,3 +69,4 @@ summary(mod)
 
 We are now working in branch conclusions. The conclusion must be that git is a lot of fun, but can sometimes be a little bit challenging. Remember: Keep smiling ;-)
 
+This just to add some text.
