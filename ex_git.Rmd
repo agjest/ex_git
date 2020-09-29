@@ -2,18 +2,8 @@
 title: "Git example"
 output: 
   github_document:
-    html_preview: false
+    html_preview: TRUE
 ---
-
-Just testing lintr package
-
-```{r test_plot, message=TRUE, warning=TRUE, paged.print=TRUE}
-library(lintr)
-x <- c(1, 2, 6, 7)
-plot(cars)
-```
-
-just some text.
 
 ```{r setup, echo=FALSE, message=FALSE}
 library(tidyverse)
